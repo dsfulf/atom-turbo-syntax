@@ -1,27 +1,34 @@
 {
-  "name": "turbo-javascript",
-  "main": "./lib/turbo-javascript",
-  "version": "1.4.0",
-  "description": "A collection of commands and snippets for optimizing Javascript and Typescript development productivity",
   "activationCommands": {
     "atom-text-editor": [
-      "turbo-javascript:end-line",
-      "turbo-javascript:end-line-comma",
-      "turbo-javascript:end-new-line",
-      "turbo-javascript:wrap-block"
+      "turbo-python:end-line",
+      "turbo-python:end-line-comma",
+      "turbo-python:end-new-line",
+      "turbo-python:c-wrap-block",
+      "turbo-python:s-wrap-block"
     ]
   },
-  "repository": "https://github.com/extrabacon/atom-turbo-javascript",
-  "license": "MIT",
-  "private": true,
+  "bugs": {
+    "url": "https://github.com/extrabacon/atom-turbo-python/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A collection of commands and snippets for optimizing Python development productivity",
+  "engines": {"atom": ">=1.0.0"},
+  "homepage": "https://github.com/extrabacon/atom-turbo-python#readme",
   "keywords": [
-    "javascript",
+    "python",
     "snippets",
-    "es6",
     "productivity"
   ],
-  "engines": {
-    "atom": ">0.200.0"
+  "license": "MIT",
+  "main": "./lib/turbo-python",
+  "name": "turbo-python",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsfulf/atom-turbo-python.git"
   },
-  "dependencies": {}
+  "version": "1.0.0"
 }

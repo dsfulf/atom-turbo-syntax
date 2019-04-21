@@ -1,0 +1,15 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Turbo Python'
+      'submenu': [
+        {'label': 'End line and return', 'command': 'turbo-python:end-new-line'}
+        {'label': 'End line with semicolon', 'command': 'turbo-python:end-line'}
+        {'label': 'End line with comma', 'command': 'turbo-python:end-line-comma'}
+        {'label': 'Insert or remove curly brackets', 'command': 'turbo-python:c-wrap-block'}
+        {'label': 'Insert or remove square brackets', 'command': 'turbo-python:s-wrap-block'}
+      ]
+    ]
+  }
+]
