@@ -17,7 +17,9 @@
   "dependencies": {},
   "deprecated": false,
   "description": "Commands for blocking and tackling",
-  "engines": {"atom": ">=1.0.0"},
+  "engines": {
+    "atom": ">=1.0.0"
+  },
   "homepage": "https://github.com/dsfulf/atom-turbo-syntax#readme",
   "keywords": [
     "syntax",
@@ -32,5 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/dsfulf/atom-turbo-syntax.git"
   },
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
