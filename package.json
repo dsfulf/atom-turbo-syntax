@@ -1,34 +1,36 @@
 {
   "activationCommands": {
     "atom-text-editor": [
-      "turbo-brackets:end-line",
-      "turbo-brackets:end-line-comma",
-      "turbo-brackets:end-new-line",
-      "turbo-brackets:c-wrap-block",
-      "turbo-brackets:s-wrap-block"
+      "turbo-syntax:end-line-semicolon",
+      "turbo-syntax:end-line-comma",
+      "turbo-syntax:backspace-preceding",
+      "turbo-syntax:delete-following",
+      "turbo-syntax:c-wrap-block",
+      "turbo-syntax:s-wrap-block",
+      "turbo-syntax:p-wrap-block"
     ]
   },
   "bugs": {
-    "url": "https://github.com/extrabacon/atom-turbo-brackets/issues"
+    "url": "https://github.com/dsfulf/atom-turbo-syntax/issues"
   },
   "bundleDependencies": false,
   "dependencies": {},
   "deprecated": false,
   "description": "Commands for blocking and tackling",
   "engines": {"atom": ">=1.0.0"},
-  "homepage": "https://github.com/extrabacon/atom-turbo-brackets#readme",
+  "homepage": "https://github.com/dsfulf/atom-turbo-syntax#readme",
   "keywords": [
-    "brackets",
+    "syntax",
     "snippets",
     "productivity"
   ],
   "license": "MIT",
-  "main": "./lib/turbo-brackets",
-  "name": "turbo-brackets",
+  "main": "./lib/turbo-syntax",
+  "name": "turbo-syntax",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsfulf/atom-turbo-brackets.git"
+    "url": "git+https://github.com/dsfulf/atom-turbo-syntax.git"
   },
   "version": "1.0.0"
 }

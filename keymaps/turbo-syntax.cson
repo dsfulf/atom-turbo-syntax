@@ -12,7 +12,10 @@
   # Remap to work with Hydrogen
   'ctrl-shift-insert': 'editor:newline-above' # was ctrl-shift-enter
   'ctrl-insert': 'editor:newline-below' # was ctrl-enter
-  'ctrl-;': 'turbo-python:end-line'
-  'ctrl-,': 'turbo-python:end-line-comma'
-  'ctrl-b': 'turbo-python:c-wrap-block'
-  'ctrl-shift-b': 'turbo-python:s-wrap-block'
+  'shift-backspace': 'turbo-syntax:backspace-preceding'
+  'shift-delete': 'turbo-syntax:delete-following'
+  'ctrl-;': 'turbo-syntax:end-line-semicolon'
+  'ctrl-,': 'turbo-syntax:end-line-comma'
+  'ctrl-b': 'turbo-syntax:c-wrap-block'
+  'ctrl-shift-b': 'turbo-syntax:s-wrap-block'
+  'ctrl-alt-b': 'turbo-syntax:p-wrap-block'

@@ -1,0 +1,17 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Turbo Syntax'
+      'submenu': [
+        {'label': 'End line with semicolon', 'command': 'turbo-syntax:end-line-semicolon'}
+        {'label': 'End line with comma', 'command': 'turbo-syntax:end-line-comma'}
+        {'label': 'Backspace to preceding word', 'command': 'turbo-syntax:backspace-preceding'}
+        {'label': 'Delete to next word', 'command': 'turbo-syntax:delete-following'}
+        {'label': 'Insert or remove braces', 'command': 'turbo-syntax:c-wrap-block'}
+        {'label': 'Insert or remove brackets', 'command': 'turbo-syntax:s-wrap-block'}
+        {'label': 'Insert or remove parentheses', 'command': 'turbo-syntax:p-wrap-block'}
+      ]
+    ]
+  }
+]

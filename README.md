@@ -1,15 +1,21 @@
-# turbo-javascript
+# turbo-syntax
 Commands for blocking and tackling.
 
 ## Commands
 
-Use the following keymaps to speed up your development. You can quickly terminate lines with semicolons or manipulate blocks of code with ease.
+Quickly insert new lines, end lines with semicolons or commas, or block of code in brackets with ease.
 
 #### New Line Above `CTRL-SHIFT-INSERT`
 Adds a line above the current line. Remaps default Atom key bind that may interfere with other commands.
 
 #### New Line Below `CTRL-INSERT`
 Adds a line below the current line. Remaps default Atom key bind that may interfere with other commands.
+
+#### Backspace To Preceding Word `SHIFT-BACKSPACE`
+Deletes any whitespace to the end of the preceding word.
+
+#### Delete To Next Word `SHIFT-BACKSPACE`
+Deletes any whitespace to the beginning of the next word.
 
 #### End Line `CTRL-;`
 Terminates the current line with a semicolon.
@@ -20,8 +26,11 @@ Terminates the current line with a comma.
 #### Easy Braces `CTRL-B`
 Creates a statement block `{ ... }` with the selected text placed inside braces and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
 
-#### Easy Brackets `CTRL-B`
+#### Easy Brackets `CTRL-SHIFT-B`
 Creates a statement block `[ ... ]` with the selected text placed inside brackets and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
+
+#### Easy Parentheses `CTRL-SHIFT-B`
+Creates a statement block `( ... )` with the selected text placed inside brackets and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
 
 # License
 
