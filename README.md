@@ -29,7 +29,7 @@ Creates a statement block `{ ... }` with the selected text placed inside braces 
 #### Easy Brackets `CTRL-SHIFT-B`
 Creates a statement block `[ ... ]` with the selected text placed inside brackets and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
 
-#### Easy Parentheses `CTRL-SHIFT-B`
+#### Easy Parentheses `CTRL-ALT-B`
 Creates a statement block `( ... )` with the selected text placed inside brackets and properly indented. If the selection is already wrapped with a block, the block is removed and its content is unindented.
 
 # License
