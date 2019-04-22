@@ -3,7 +3,7 @@ Commands for blocking and tackling.
 
 ## Commands
 
-Quickly insert new lines, end lines with semicolons or commas, or block of code in brackets with ease.
+Quickly insert new lines, end lines with semicolons or commas, or block code in brackets with ease.
 
 #### New Line Above `CTRL-SHIFT-INSERT`
 Adds a line above the current line. Remaps default Atom key bind that may interfere with other commands.
@@ -14,7 +14,7 @@ Adds a line below the current line. Remaps default Atom key bind that may interf
 #### Backspace To Preceding Word `SHIFT-BACKSPACE`
 Deletes any whitespace to the end of the preceding word.
 
-#### Delete To Next Word `SHIFT-BACKSPACE`
+#### Delete To Next Word `SHIFT-DELETE`
 Deletes any whitespace to the beginning of the next word.
 
 #### End Line `CTRL-;`
